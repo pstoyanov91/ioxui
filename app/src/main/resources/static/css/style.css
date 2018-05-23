@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 23, 2016, 7:48:32 PM
+    Author     : cpt2pes
+*/
+
+.schedule_form{
+    margin-top: 20px;
+}
+#wizard_steps_container{
+}
+
+
+#second_step{
+    opacity: 0.3;
+}
+#second_step:before{
+    content: '\E5CC';
+    color: rgba(0,0,0,0.7);
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    margin: 0 10px 0 8px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#second_step_content{
+    display: none;
+}
+
+.wizard_step{
+    font-size: 20px;
+}
+
+.schedule_options button{
+    color: black;
+    margin-right: 10px;
+}
+
+.m-t-5{
+    margin-top: 5px;
+}
